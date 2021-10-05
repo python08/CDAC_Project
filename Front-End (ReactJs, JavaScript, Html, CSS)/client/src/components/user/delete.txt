@@ -1,0 +1,7 @@
+
+
+update user set password='$2a$12$9Zp1AtQ3ZidULgCd2peI2.BZ5i2OxV3.IRLAQ65Ez4pxdTxmZK1Mq' where id = 2;
+update user set password='$2a$12$9Zp1AtQ3ZidULgCd2peI2.BZ5i2OxV3.IRLAQ65Ez4pxdTxmZK1Mq' where id = 3;
+update user set password='$2a$12$RZ.Kje5lKShJNRME6ADOrOAFJarE.KaE0hii7x9oXgtSwDuC0fCq2' where id = 4;
+
+insert into user(firstname,lastname,username,password,email,mobile,role,institute_id) values('Akanksha','Gadilkar','Akanksha','$2a$12$dTWwUxh.r5cIIlKjJlc3.e9jYMTQ7Yp0ChJ1ba.zZlqe9GhPLA/u2','akankshagadilkar3604@gmail.com','8828996929','teacher',100)
